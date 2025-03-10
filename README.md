@@ -9,7 +9,7 @@ Este é um website responsivo e minimalista para um brechó online.
 - **Página Inicial**: Apresentação do brechó e destaques de produtos.
 - **Design Responsivo**: Compatível com dispositivos móveis e desktops.
 - **Catálogo de Produtos**: Exibição organizada de roupas e acessórios.
-
+- **Monte seu Look**: Monte o seu look.
 ---
 
 ## Tecnologias Utilizadas

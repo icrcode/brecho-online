@@ -2,7 +2,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d9d9d9;
 }
 
 #home{
@@ -102,4 +101,25 @@ footer{
     color: white;
     padding: 20px;
     text-align: center;
+    }
+
+    .carrossel {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .container-imagens {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .container-imagens img {
+        scroll-snap-align: start;
+        flex: 0 0 calc(50% - 5px);
+        max-width: 100%;
     }
